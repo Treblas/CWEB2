@@ -1,0 +1,242 @@
+/*body*/
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color:  #e6e6e6; 
+}
+
+/*ul navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+/*ul navigation bar menu items*/
+
+li {
+    float: right;
+    padding-top: 18px;
+    padding-bottom: 12px;
+	font-weight:bolder;
+	letter-spacing:2px;
+	font-size:22px;
+}
+
+/*ul navigation bar menu links*/
+
+li a {
+	font-weight: bold;
+	font-size: 13px;
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+	letter-spacing:2px;
+}
+
+/*ul navigation bar menu item when hover*/
+
+li a:hover {
+    background-color: #ff8000;
+    color: white;
+    border-radius: 5px;
+}
+
+a[title=Home]{
+	text-decoration:none;
+}
+/*fieldset*/
+
+fieldset[name=form-field] {
+	background-color: #666666;
+}
+
+.field{
+
+}
+
+/*fieldset caption*/
+
+legend {
+	width: 300px;
+	padding:15px;
+	border-radius: 5px;
+	background-color: black;
+	color: yellow;
+}
+
+/*divs*/
+
+div[name=ulnav] {
+	float: right;
+}
+
+
+div[name=pic]{
+	padding-left: 340px;
+}
+
+div[name=nav] {
+	padding-top: 7px;
+	padding-right: 100px;	
+}
+
+div[name=div-pics] {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+div[name=pic-slider] {
+	padding-right: 5px;
+	padding-top: 30px;
+	display: inline-block;
+	
+}
+
+
+div[name=slid-arrow] {
+	display: inline-block;
+	position:absolute;
+	top:60%;
+	left:6%;
+}
+
+div[name=slid-arrow2] {
+	display: inline-block;
+	position:absolute;
+	top:60%;
+	left:90%;
+}
+
+div[name=form-body] {
+	display: inline-block;
+	font-size: 13px;
+	text-align: left;
+	padding-right: 10px;
+}
+
+div[name=div-item] {
+	display: inline-block;
+	padding-right: 40px;
+	font-size: 13px;
+	text-align: left;
+	color: black;
+}
+
+div[name=div-forms] {
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+.active {
+    color: #cc2900;
+}
+
+p {
+	color: white;
+}
+
+label {
+	color: white;
+	padding-left: 195px;
+	padding-right: 10px;
+}
+
+
+form {
+	background-color: #1a1a1a; 
+	padding-left:75px ;
+	padding-top: 5px;
+}
+
+input {
+	padding-left: 10px;
+}
+
+input[type="submit"]{
+	border-radius: 0px 5px;
+	padding: 4px;
+}
+
+div[name=div-footer] {
+	margin-top: -40px;
+	background-color:  #404040;
+	}
+	
+
+table {
+	color: white;
+	border: none;
+	padding-top: 40px;
+	
+}
+
+h3 {
+	padding: 0px;
+	margin: 2px
+}
+
+td{
+	padding-right: 50px;
+	vertical-align: top;
+}
+
+.p-body{
+	background-color:white;
+	color:black;
+	font-size:17px;
+	padding:0px;
+	height:60px;
+	border-bottom: 5px solid #bfbfbf;
+	padding-top:5px;
+}
+
+input[name=submit]{
+	background-color: yellow;
+	border: none; 
+}
+input[name=email]{
+	font-style:italic;
+	height:26px;
+	
+}
+
+.imgb{
+	position:absolute;
+	left:40%;
+}
+
+#lbl-info{
+	margin-top:18px;
+	
+}
+
+#lbl-infos{
+	margin-left:18px;
+}
+
+span{
+	letter-spacing:1px;
+}
+#sp{
+	letter-spacing:0px;
+	font-size:13px;
+}
+.body-p{
+	line-height:20px;
+}
+.div-pbody{
+	line-height:20px;
+}
+hr{
+	border:1px solid gray;
+	height:1px;
+}
